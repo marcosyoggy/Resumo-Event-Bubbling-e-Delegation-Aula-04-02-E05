@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Aula 04-02-E05</title>
+</head>
+<body class="parentBody  bg-warning  ">
+  <h2 class="text-dark m-5">Event Propagation Test</h2>
+
+  <div class="blockAcessButtons d-inline-flex m-2 ">
+    <button class="border-dark rounded bg-dark text-white p-2 m-2"
+      data-acessbutton="showBlock_01">acess_Block-01</button>
+    <button class="border-dark rounded bg-dark text-white p-2 m-2"
+      data-acessbutton="showBlock_02">acess_Block-02</button>
+    <button class="border-dark rounded bg-dark text-white p-2 m-2"
+      data-acessbutton="showBlock_03">acess_Block-03</button>
+    <button class="border-dark rounded bg-dark text-white p-2 m-2"
+      data-acessbutton="showBlock_04">acess_Block-04</button>
+  </div>
+
+  <div class="container border border-dark">
+    <div class="divOfExitButtons d-inline-flex">
+      <div class="blockDiv01 border border border-dark rounded p-2 m-2 bg-primary" style="width: 250px; height: 180px;"
+        data-blockdiv="exitContent-01">Block_01
+        <button class="button01 border-dark rounded bg-dark text-white" data-exitbutton="exitContent-01">Exit</button>
+      </div>
+
+      <div class="blockDiv02 border border border-dark rounded p-2 m-2 bg-secondary"
+        style="width: 250px; height: 180px;" data-blockdiv="exitContent-02">Block_02
+        <button class="button02 border-dark rounded bg-dark text-white" data-exitbutton="exitContent-02">Exit</button>
+      </div>
+
+      <div class="blockDiv03 border border border-dark rounded p-2 m-2 bg-danger" style="width: 250px; height: 180px;"
+        data-blockdiv="exitContent-03">Block_03
+        <button class="button03 border-dark rounded bg-dark text-white" data-exitbutton="exitContent-03">Exit</button>
+      </div>
+
+      <div class="blockDiv04 border border border-dark rounded p-2 m-2 bg-info" style="width: 250px; height: 180px;"
+        data-blockdiv="exitContent-04">Block_04
+        <button class="button04 border-dark rounded bg-dark text-white" data-exitbutton="exitContent-04">Exit</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
