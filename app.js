@@ -3,10 +3,6 @@
 
 // https://resumo-event-bubbling-e-delegation-aula-04-02-e05.netlify.app
 
-
-
-//---------------BLOCK CONST-------------------------------------
-
 const parentBody = document.querySelector(".parentBody")
 const divOfExitButtons = document.querySelector(".divOfExitButtons")
 
